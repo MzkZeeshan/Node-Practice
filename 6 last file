@@ -1,0 +1,13 @@
+In last we can work with redux using react
+so need to react-redux
+
+
+in main app we need to add prvider from react-redux and store attribute add store address
+
+const mapStateToProps=(state)=>{ user:state.user} 
+connect(mapStatToprops,{addContact:addContact})
+
+
+mapStateToProps use to getState and this will be in this.props.user
+
+object of addContact mapDispatchToProps
